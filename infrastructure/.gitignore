@@ -1,0 +1,13 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__
+*.pyc
+__buff__
+*.hkl
+__processed__
+*.mat
+__log__
+__predicts__
+gp_pred
+datasets
+__cache__
