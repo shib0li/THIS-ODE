@@ -7,6 +7,7 @@
 <h4 align="center">
     <p>
         <a href="https://proceedings.mlr.press/v162/li22i.html">Paper</a> |
-        <b>Blog</b>
+        <a href="https://proceedings.mlr.press/v162/li22i.html">Slides</a> |
+        <a href="https://proceedings.mlr.press/v162/li22i.html">Poster</a> |
     <p>
 </h4>
