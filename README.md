@@ -42,9 +42,8 @@ Please cite our paper if you find it helpful :)
   month = 	 {17--23 Jul},
   publisher =    {PMLR},
   pdf = 	 {https://proceedings.mlr.press/v162/li22i/li22i.pdf},
-  url = 	 {https://proceedings.mlr.press/v162/li22i.html}
+  url = 	 {https://proceedings.mlr.press/v162/li22i.html},
 }
 
-}
 ```
 <br></br>
