@@ -16,4 +16,5 @@ by [Shibo Li](https://imshibo.com), [Mike Kirby](https://www.cs.utah.edu/~kirby/
     <p>
 </h4>
 
-**THIS-ODE** 
+We propose a novel Temporal High-order Interaction decompoSition model based on Ordinary Differential Equations (**THIS-ODE**). We model the time-varying interaction result with a latent ODE. To capture the complex temporal dynamics, we use a neural network (NN) to learn the time derivative of the ODE state. We use the representation of the interaction objects to model the initial value of the ODE and to constitute a part of the NN input to compute the state. In this way, the temporal relationships of the participant objects can be estimated and encoded into their representations. For tractable and scalable inference, we use forward sensitivity analysis to efficiently compute the gradient of ODE state, based on which we use integral transform to develop a stochastic mini-batch learning algorithm.
+
