@@ -69,17 +69,17 @@ There are some discrepancy of the methods' names we used in the paper and we use
 
 | Names in the paper | Names in this repo |
 |:------------------:|:------------------:|
-|       CP-Time      |       CP-Time      |
-|       CP-DTL       |       CP-DTL       |
-|       CP-DTN       |       CP-DTN       |
-|      GPTF-Time     |      GPTF-Time     |
-|      GPTF-DTL      |      GPTF-DTL      |
-|      GPTF-DTN      |      GPTF-DTN      |
-|      NTF-Time      |      NTF-Time      |
-|       NTF-DTL      |       NTF-DTL      |
-|       NTF-DTN      |       NTF-DTN      |
-|       PTucker      |       PTucker      |
-|      THIS-ODE      |      THIS-ODE      |
+|       CP-Time      |      CPTF_time     |
+|       CP-DTL       |     CPTF_linear    |
+|       CP-DTN       |      CPTF_rnn      |
+|      GPTF-Time     |      GPTF_time     |
+|      GPTF-DTL      |     GPTF_linear    |
+|      GPTF-DTN      |      GPTF_rnn      |
+|      NTF-Time      |     Neural_time    |
+|       NTF-DTL      |    Neural_linear   |
+|       NTF-DTN      |     Neural_rnn     |
+|       PTucker      |       Tucker       |
+|      THIS-ODE      |     NODE_noise     |
 
 
 # Getting Involved
