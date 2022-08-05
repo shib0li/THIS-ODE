@@ -63,7 +63,7 @@ for example
 bash run.sh BeijingAirExtrap Neural_time 10 8 cuda:0 0 100 1 
 ```
 
-runs the experiment of BeijingAir on the extraplation setting with the algorihtm of neural_time for 10 epochs. The dimensional of $$U$$ is 8 and the program runs on the first GPU. The minibatch size is 100 and save the reulst every 1 update.
+runs the experiment of BeijingAir on the extraplation setting with the algorihtm of neural_time for 10 epochs. The dimensional of representation is 8 and the program runs on the first GPU. The minibatch size is 100 and save the reulst every 1 update.
 
 
 # Getting Involved
