@@ -41,7 +41,12 @@ data/
 
 # Run
 
+To run all the methods, use our provided `run.sh` script, this script takes several arguments
 
+```
+./run.sh $DOMAIN $METHOD $MAX_EPOCHS $RANK $DEVICE $FOLD $BATCH_SIZE $TEST_INTERVAL 
+
+```
 
 # Getting Involved
 Feel free to submit Github issues or pull requests. Welcome to contribute to our project!
