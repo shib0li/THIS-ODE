@@ -20,7 +20,11 @@ We propose a novel Temporal High-order Interaction decompoSition model based on 
 
 # System Requirements
 
-We highly recommend to use Docker to run our code. We have attached the docker build file `env.Dockerfile`. Or feel free to install the packages with pip/conda that listed in the docker file.
+We highly recommend to use Docker to run our code. We have attached the docker build file `env.Dockerfile`. Or feel free to install the packages with pip/conda that could be found in the docker file.
+
+# Datasets
+
+In our paper, we conduct our experiments on 4 real-world tasks and 1 synthetic task. For each task, we evaluate all the methods on two settings: ***extrapolation*** and ***interpolation***. How to prepare the dataset for each task, we provide notebooks in the `data/` folder. 
 
 
 # Getting Involved
