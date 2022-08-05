@@ -26,7 +26,7 @@ We highly recommend to use Docker to run our code. We have attached the docker b
 
 In our paper, we conduct our experiments on 4 real-world tasks and 1 synthetic task. For each task, we evaluate all the methods on two settings: ***extrapolation*** and ***interpolation***. 
 
-You should download original raw datasets([FitRec](https://cseweb.ucsd.edu/~jmcauley/datasets.html#google_local), [Time series events](https://github.com/snudatalab/TATD)) into the `data/raw/(domain)` folders and use the notebooks provided to process the data. If propoerly processed, the data used for training and testing should appear in the `data/processed/BeijingAirExtrap.pickle` for example
+You should download original raw datasets([FitRec](https://cseweb.ucsd.edu/~jmcauley/datasets.html#google_local), [Time series events](https://github.com/snudatalab/TATD)) into the `data/raw/(domain)` folders and use the notebooks provided to process the data. If propoerly processed, the data used for training and testing should appear as the `data/processed/BeijingAirExtrap.pickle` for example
 
 ```
 data/
@@ -49,10 +49,10 @@ To run all the methods, use our provided `run.sh` script, this script takes seve
 ```
 
 * `$DOMAIN` is a concat string that specifies the task and setting, for example ***BeijingAirExtrap*** means run with BeijingAir data on extrapolation setting.
+* `$METHOD` learning algorithms
 * `$MAX_EPOCHS` an integer of number of epochs
 * `$RANK` dimension used for decomposition representation
 * `$DEVICE` where to run, for example ***cuda:0*** or ***cpu***
-* `$FOLD` fold index
 * `$FOLD` fold index after splitting the datasets
 * `$BATCH_SIZE` mini-batch size used for training
 * `$TEST_INTERVAL` frequency for saving the results
