@@ -48,6 +48,16 @@ To run all the methods, use our provided `run.sh` script, this script takes seve
 
 ```
 
+* `$DOMAIN` is a concat string that specifies the task and setting, for example ***BeijingAirExtrap*** means run with BeijingAir data on extrapolation setting.
+* `$MAX_EPOCHS` an integer of number of epochs
+* `$RANK` dimension used for decomposition representation
+* `$DEVICE` where to run, for example ***cuda:0*** or ***cpu***
+* `$FOLD` fold index
+* `$FOLD` fold index after splitting the datasets
+* `$BATCH_SIZE` mini-batch size used for training
+* `$TEST_INTERVAL` frequency for saving the results
+
+
 # Getting Involved
 Feel free to submit Github issues or pull requests. Welcome to contribute to our project!
 
