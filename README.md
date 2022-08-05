@@ -57,6 +57,14 @@ To run all the methods, use our provided `run.sh` script, this script takes seve
 * `$BATCH_SIZE` mini-batch size used for training
 * `$TEST_INTERVAL` frequency for saving the results
 
+for example
+
+```
+bash run.sh BeijingAirExtrap Neural_time 10 8 cuda:0 0 100 1 
+```
+
+runs the experiment of BeijingAir on the extraplation setting with the algorihtm of neural_time for 10 epochs. The dimensional of $$U$$ is 8 and the program runs on the first GPU. The minibatch size is 100 and save the reulst every 1 update.
+
 
 # Getting Involved
 Feel free to submit Github issues or pull requests. Welcome to contribute to our project!
