@@ -65,6 +65,22 @@ bash run.sh BeijingAirExtrap Neural_time 10 8 cuda:0 0 100 1
 
 runs the experiment of BeijingAir on the extraplation setting with the algorihtm of neural_time for 10 epochs. The dimensional of representation is 8 and the program runs on the first GPU. The minibatch size is 100 and save the reulst every 1 update.
 
+There are some discrepancy of the methods' names we used in the paper and we used in the code base. Here is the table of names mappings
+
+| Names in the paper | Names in this repo |
+|:------------------:|:------------------:|
+|       CP-Time      |       CP-Time      |
+|       CP-DTL       |       CP-DTL       |
+|       CP-DTN       |       CP-DTN       |
+|      GPTF-Time     |      GPTF-Time     |
+|      GPTF-DTL      |      GPTF-DTL      |
+|      GPTF-DTN      |      GPTF-DTN      |
+|      NTF-Time      |      NTF-Time      |
+|       NTF-DTL      |       NTF-DTL      |
+|       NTF-DTN      |       NTF-DTN      |
+|       PTucker      |       PTucker      |
+|      THIS-ODE      |      THIS-ODE      |
+
 
 # Getting Involved
 Feel free to submit Github issues or pull requests. Welcome to contribute to our project!
