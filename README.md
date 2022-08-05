@@ -81,6 +81,9 @@ Here are the name mappings of the names we used in the paper and the methods we 
 |       PTucker      |       Tucker       |
 |      THIS-ODE      |     NODE_noise     |
 
+# License
+
+THIS-ODE is released under the MIT License, please refer the LICENSE for details
 
 # Getting Involved
 Feel free to submit Github issues or pull requests. Welcome to contribute to our project!
